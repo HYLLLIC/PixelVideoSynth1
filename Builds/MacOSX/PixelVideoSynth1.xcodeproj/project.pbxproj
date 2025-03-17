@@ -7,69 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02298C4AFE4677A65CD9889D /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 32CB0055326B8A023B2DCCD3; };
-		09CB31CE781DC7291A0836F6 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 808B1B392AE0D3C1C13C5D2F; };
-		1A8750472A23177B725C9DB1 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = B0B92FE5EA911686533939B8; };
-		27E9AC4D6C96AFF271016DBA /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 58C4044ADFA31C851E6EA282; };
-		3D93190B02630F1250CE4661 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 26A7636E824A7EA9E11E7F21; };
-		44C2533C473D068B769F09AE /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 5A345C2FF281AF21ACAC33D5; };
-		49627628CDF13BA047B77667 /* include_juce_opengl.mm */ = {isa = PBXBuildFile; fileRef = D7E489430DC2EADAB1767E6E; };
-		4C0D19A50B8026DD30261E75 /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = BD92B67A150B06AD1394A653; };
-		5561EAB0AB70C32FA0FD4125 /* Security.framework */ = {isa = PBXBuildFile; fileRef = C34652570CF279A28A92A51F; };
-		6C7C0FA32E5444424588AD11 /* MainComponent.cpp */ = {isa = PBXBuildFile; fileRef = 4A7B95458B0CC88A1D61E885; };
-		766EE02B77403857EDE036F5 /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 78EA3771FBF7868276524EF1; };
-		7691F99A929F76B472A282E6 /* OpenGL.framework */ = {isa = PBXBuildFile; fileRef = D6E60636D004B630AA77B927; };
-		8DF798761C5A559107CEE561 /* App */ = {isa = PBXBuildFile; fileRef = 34E7985F7BFD86E06623EE27; };
-		A7B7E69B72D9C8E11E902C18 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = 536AF9181ED3C8BE95EF4386; };
-		AFD61D1E7D5864256E62F3C8 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = C94EC0A9AFF49EACE43E6956; };
-		B2121DCBF50DED9034E9CB1C /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 20081705DFBD5A0B02BE27CD; };
-		EA59219F01E2FB5E55BFCEA2 /* Main.cpp */ = {isa = PBXBuildFile; fileRef = 81905BB65EBD300AC3B71CFF; };
-		EA93789EB987728E5CC7F647 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = AC25EC35351A638FAAB1C2C1; };
+		02298C4AFE4677A65CD9889D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CB0055326B8A023B2DCCD3 /* Foundation.framework */; };
+		09CB31CE781DC7291A0836F6 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808B1B392AE0D3C1C13C5D2F /* IOKit.framework */; };
+		1A8750472A23177B725C9DB1 /* include_juce_data_structures.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0B92FE5EA911686533939B8 /* include_juce_data_structures.mm */; };
+		27E9AC4D6C96AFF271016DBA /* include_juce_gui_basics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58C4044ADFA31C851E6EA282 /* include_juce_gui_basics.mm */; };
+		3D93190B02630F1250CE4661 /* include_juce_graphics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26A7636E824A7EA9E11E7F21 /* include_juce_graphics.mm */; };
+		44C2533C473D068B769F09AE /* include_juce_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A345C2FF281AF21ACAC33D5 /* include_juce_core.mm */; };
+		49627628CDF13BA047B77667 /* include_juce_opengl.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7E489430DC2EADAB1767E6E /* include_juce_opengl.mm */; };
+		4C0D19A50B8026DD30261E75 /* include_juce_gui_extra.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD92B67A150B06AD1394A653 /* include_juce_gui_extra.mm */; };
+		5561EAB0AB70C32FA0FD4125 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34652570CF279A28A92A51F /* Security.framework */; };
+		6C7C0FA32E5444424588AD11 /* MainComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */; };
+		766EE02B77403857EDE036F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EA3771FBF7868276524EF1 /* Cocoa.framework */; };
+		7691F99A929F76B472A282E6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E60636D004B630AA77B927 /* OpenGL.framework */; };
+		A7B7E69B72D9C8E11E902C18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536AF9181ED3C8BE95EF4386 /* WebKit.framework */; };
+		AFD61D1E7D5864256E62F3C8 /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */; };
+		B2121DCBF50DED9034E9CB1C /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20081705DFBD5A0B02BE27CD /* RecentFilesMenuTemplate.nib */; };
+		BC9A3F9A2D87B66D00D6E676 /* PatternEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */; };
+		BC9A3F9D2D87B70F00D6E676 /* OpenGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */; };
+		EA59219F01E2FB5E55BFCEA2 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81905BB65EBD300AC3B71CFF /* Main.cpp */; };
+		EA93789EB987728E5CC7F647 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20081705DFBD5A0B02BE27CD /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
-		2387E8445D6A9252340C3BB6 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/natesparks/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
-		26A7636E824A7EA9E11E7F21 /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
-		32CB0055326B8A023B2DCCD3 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		34736BD2582E107DFE8871AF /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/natesparks/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
-		34E7985F7BFD86E06623EE27 /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelVideoSynth1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39EB9D68051C20627C7EDF91 /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
-		46A1C11BD59CEF6A4302FB41 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/natesparks/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
-		48CA3E444A6846188C96DDB6 /* juce_opengl */ /* juce_opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_opengl; path = /Users/natesparks/JUCE/modules/juce_opengl; sourceTree = "<absolute>"; };
-		4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */ /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
-		536AF9181ED3C8BE95EF4386 /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		58C4044ADFA31C851E6EA282 /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
-		5A345C2FF281AF21ACAC33D5 /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
-		78EA3771FBF7868276524EF1 /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		808B1B392AE0D3C1C13C5D2F /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		81905BB65EBD300AC3B71CFF /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
-		8CD083C330E046E467FF707E /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
-		916EC1ECBA7F1A3A40BE38A2 /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/natesparks/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
-		ABFBDC77DD9AC871439A4F81 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/natesparks/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
-		AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B0B92FE5EA911686533939B8 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
-		BD92B67A150B06AD1394A653 /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
-		C34652570CF279A28A92A51F /* Security.framework */ /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
-		D6E60636D004B630AA77B927 /* OpenGL.framework */ /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		D7E489430DC2EADAB1767E6E /* include_juce_opengl.mm */ /* include_juce_opengl.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_opengl.mm; path = ../../JuceLibraryCode/include_juce_opengl.mm; sourceTree = SOURCE_ROOT; };
-		F28B880A836282A86333333E /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/natesparks/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
-		FF2B5986853B29D6CE75A2CC /* MainComponent.h */ /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
+		20081705DFBD5A0B02BE27CD /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		2387E8445D6A9252340C3BB6 /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/natesparks/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
+		26A7636E824A7EA9E11E7F21 /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		32CB0055326B8A023B2DCCD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34736BD2582E107DFE8871AF /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/natesparks/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
+		34E7985F7BFD86E06623EE27 /* PixelVideoSynth1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelVideoSynth1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EB9D68051C20627C7EDF91 /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		46A1C11BD59CEF6A4302FB41 /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/natesparks/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
+		48CA3E444A6846188C96DDB6 /* juce_opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_opengl; path = /Users/natesparks/JUCE/modules/juce_opengl; sourceTree = "<absolute>"; };
+		4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
+		536AF9181ED3C8BE95EF4386 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		58C4044ADFA31C851E6EA282 /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		5A345C2FF281AF21ACAC33D5 /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		78EA3771FBF7868276524EF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		808B1B392AE0D3C1C13C5D2F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		81905BB65EBD300AC3B71CFF /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		8CD083C330E046E467FF707E /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		916EC1ECBA7F1A3A40BE38A2 /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/natesparks/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
+		ABFBDC77DD9AC871439A4F81 /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/natesparks/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
+		AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0B92FE5EA911686533939B8 /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		BC9A3F982D87B64900D6E676 /* PatternEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternEngine.h; sourceTree = "<group>"; };
+		BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PatternEngine.cpp; sourceTree = "<group>"; };
+		BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLRenderer.cpp; sourceTree = "<group>"; };
+		BC9A3F9C2D87B70F00D6E676 /* OpenGLRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLRenderer.hpp; sourceTree = "<group>"; };
+		BD92B67A150B06AD1394A653 /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
+		C34652570CF279A28A92A51F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		D6E60636D004B630AA77B927 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D7E489430DC2EADAB1767E6E /* include_juce_opengl.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_opengl.mm; path = ../../JuceLibraryCode/include_juce_opengl.mm; sourceTree = SOURCE_ROOT; };
+		F28B880A836282A86333333E /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/natesparks/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
+		FF2B5986853B29D6CE75A2CC /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA4417BC0A923E54D5C6A2AC = {
+		EA4417BC0A923E54D5C6A2AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766EE02B77403857EDE036F5,
-				02298C4AFE4677A65CD9889D,
-				09CB31CE781DC7291A0836F6,
-				7691F99A929F76B472A282E6,
-				EA93789EB987728E5CC7F647,
-				5561EAB0AB70C32FA0FD4125,
-				A7B7E69B72D9C8E11E902C18,
+				766EE02B77403857EDE036F5 /* Cocoa.framework in Frameworks */,
+				02298C4AFE4677A65CD9889D /* Foundation.framework in Frameworks */,
+				09CB31CE781DC7291A0836F6 /* IOKit.framework in Frameworks */,
+				7691F99A929F76B472A282E6 /* OpenGL.framework in Frameworks */,
+				EA93789EB987728E5CC7F647 /* QuartzCore.framework in Frameworks */,
+				5561EAB0AB70C32FA0FD4125 /* Security.framework in Frameworks */,
+				A7B7E69B72D9C8E11E902C18 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +84,8 @@
 		371F19C564F080E3122157B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8CD083C330E046E467FF707E,
-				20081705DFBD5A0B02BE27CD,
+				8CD083C330E046E467FF707E /* Info-App.plist */,
+				20081705DFBD5A0B02BE27CD /* RecentFilesMenuTemplate.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -88,7 +93,7 @@
 		437622EF4F7A9DB3FB172D93 /* PixelVideoSynth1 */ = {
 			isa = PBXGroup;
 			children = (
-				7B4BDA4647E00D312B61FC96,
+				7B4BDA4647E00D312B61FC96 /* Source */,
 			);
 			name = PixelVideoSynth1;
 			sourceTree = "<group>";
@@ -96,14 +101,14 @@
 		542DC649DD52F402CF775A83 /* JUCE Library Code */ = {
 			isa = PBXGroup;
 			children = (
-				5A345C2FF281AF21ACAC33D5,
-				B0B92FE5EA911686533939B8,
-				C94EC0A9AFF49EACE43E6956,
-				26A7636E824A7EA9E11E7F21,
-				58C4044ADFA31C851E6EA282,
-				BD92B67A150B06AD1394A653,
-				D7E489430DC2EADAB1767E6E,
-				39EB9D68051C20627C7EDF91,
+				5A345C2FF281AF21ACAC33D5 /* include_juce_core.mm */,
+				B0B92FE5EA911686533939B8 /* include_juce_data_structures.mm */,
+				C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */,
+				26A7636E824A7EA9E11E7F21 /* include_juce_graphics.mm */,
+				58C4044ADFA31C851E6EA282 /* include_juce_gui_basics.mm */,
+				BD92B67A150B06AD1394A653 /* include_juce_gui_extra.mm */,
+				D7E489430DC2EADAB1767E6E /* include_juce_opengl.mm */,
+				39EB9D68051C20627C7EDF91 /* JuceHeader.h */,
 			);
 			name = "JUCE Library Code";
 			sourceTree = "<group>";
@@ -111,12 +116,12 @@
 		5439E1D3FEF4BE05EA3F4B6D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				437622EF4F7A9DB3FB172D93,
-				DD8F60A6FFA0A7BFA9D97B2A,
-				542DC649DD52F402CF775A83,
-				371F19C564F080E3122157B7,
-				AF6CF4A9CB63D6FB2953E1BA,
-				BFCB3B2D88BF30D6775E7861,
+				437622EF4F7A9DB3FB172D93 /* PixelVideoSynth1 */,
+				DD8F60A6FFA0A7BFA9D97B2A /* JUCE Modules */,
+				542DC649DD52F402CF775A83 /* JUCE Library Code */,
+				371F19C564F080E3122157B7 /* Resources */,
+				AF6CF4A9CB63D6FB2953E1BA /* Frameworks */,
+				BFCB3B2D88BF30D6775E7861 /* Products */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,9 +129,13 @@
 		7B4BDA4647E00D312B61FC96 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				81905BB65EBD300AC3B71CFF,
-				FF2B5986853B29D6CE75A2CC,
-				4A7B95458B0CC88A1D61E885,
+				81905BB65EBD300AC3B71CFF /* Main.cpp */,
+				FF2B5986853B29D6CE75A2CC /* MainComponent.h */,
+				4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */,
+				BC9A3F982D87B64900D6E676 /* PatternEngine.h */,
+				BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */,
+				BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */,
+				BC9A3F9C2D87B70F00D6E676 /* OpenGLRenderer.hpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -134,13 +143,13 @@
 		AF6CF4A9CB63D6FB2953E1BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78EA3771FBF7868276524EF1,
-				32CB0055326B8A023B2DCCD3,
-				808B1B392AE0D3C1C13C5D2F,
-				D6E60636D004B630AA77B927,
-				AC25EC35351A638FAAB1C2C1,
-				C34652570CF279A28A92A51F,
-				536AF9181ED3C8BE95EF4386,
+				78EA3771FBF7868276524EF1 /* Cocoa.framework */,
+				32CB0055326B8A023B2DCCD3 /* Foundation.framework */,
+				808B1B392AE0D3C1C13C5D2F /* IOKit.framework */,
+				D6E60636D004B630AA77B927 /* OpenGL.framework */,
+				AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */,
+				C34652570CF279A28A92A51F /* Security.framework */,
+				536AF9181ED3C8BE95EF4386 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,7 +157,7 @@
 		BFCB3B2D88BF30D6775E7861 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34E7985F7BFD86E06623EE27,
+				34E7985F7BFD86E06623EE27 /* PixelVideoSynth1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,13 +165,13 @@
 		DD8F60A6FFA0A7BFA9D97B2A /* JUCE Modules */ = {
 			isa = PBXGroup;
 			children = (
-				ABFBDC77DD9AC871439A4F81,
-				46A1C11BD59CEF6A4302FB41,
-				916EC1ECBA7F1A3A40BE38A2,
-				2387E8445D6A9252340C3BB6,
-				34736BD2582E107DFE8871AF,
-				F28B880A836282A86333333E,
-				48CA3E444A6846188C96DDB6,
+				ABFBDC77DD9AC871439A4F81 /* juce_core */,
+				46A1C11BD59CEF6A4302FB41 /* juce_data_structures */,
+				916EC1ECBA7F1A3A40BE38A2 /* juce_events */,
+				2387E8445D6A9252340C3BB6 /* juce_graphics */,
+				34736BD2582E107DFE8871AF /* juce_gui_basics */,
+				F28B880A836282A86333333E /* juce_gui_extra */,
+				48CA3E444A6846188C96DDB6 /* juce_opengl */,
 			);
 			name = "JUCE Modules";
 			sourceTree = "<group>";
@@ -172,11 +181,11 @@
 /* Begin PBXNativeTarget section */
 		66A4E76044F5F194EC89417A /* PixelVideoSynth1 - App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 150A081DAC2362AC25091CD3;
+			buildConfigurationList = 150A081DAC2362AC25091CD3 /* Build configuration list for PBXNativeTarget "PixelVideoSynth1 - App" */;
 			buildPhases = (
-				610F633C8FD206896B83E8A9,
-				45028D2093D2979337491068,
-				EA4417BC0A923E54D5C6A2AC,
+				610F633C8FD206896B83E8A9 /* Resources */,
+				45028D2093D2979337491068 /* Sources */,
+				EA4417BC0A923E54D5C6A2AC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,13 +193,13 @@
 			);
 			name = "PixelVideoSynth1 - App";
 			productName = PixelVideoSynth1;
-			productReference = 34E7985F7BFD86E06623EE27;
+			productReference = 34E7985F7BFD86E06623EE27 /* PixelVideoSynth1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96107E4D8E46A957C3CF2261 = {
+		96107E4D8E46A957C3CF2261 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1340;
@@ -220,47 +229,50 @@
 					};
 				};
 			};
-			buildConfigurationList = 31BB4D7B3FD21A7BA30BECEF;
+			buildConfigurationList = 31BB4D7B3FD21A7BA30BECEF /* Build configuration list for PBXProject "PixelVideoSynth1" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5439E1D3FEF4BE05EA3F4B6D;
+			mainGroup = 5439E1D3FEF4BE05EA3F4B6D /* Source */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66A4E76044F5F194EC89417A,
+				66A4E76044F5F194EC89417A /* PixelVideoSynth1 - App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		610F633C8FD206896B83E8A9 = {
+		610F633C8FD206896B83E8A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2121DCBF50DED9034E9CB1C,
+				B2121DCBF50DED9034E9CB1C /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45028D2093D2979337491068 = {
+		45028D2093D2979337491068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA59219F01E2FB5E55BFCEA2,
-				6C7C0FA32E5444424588AD11,
-				44C2533C473D068B769F09AE,
-				1A8750472A23177B725C9DB1,
-				AFD61D1E7D5864256E62F3C8,
-				3D93190B02630F1250CE4661,
-				27E9AC4D6C96AFF271016DBA,
-				4C0D19A50B8026DD30261E75,
-				49627628CDF13BA047B77667,
+				BC9A3F9A2D87B66D00D6E676 /* PatternEngine.cpp in Sources */,
+				EA59219F01E2FB5E55BFCEA2 /* Main.cpp in Sources */,
+				6C7C0FA32E5444424588AD11 /* MainComponent.cpp in Sources */,
+				44C2533C473D068B769F09AE /* include_juce_core.mm in Sources */,
+				1A8750472A23177B725C9DB1 /* include_juce_data_structures.mm in Sources */,
+				AFD61D1E7D5864256E62F3C8 /* include_juce_events.mm in Sources */,
+				3D93190B02630F1250CE4661 /* include_juce_graphics.mm in Sources */,
+				27E9AC4D6C96AFF271016DBA /* include_juce_gui_basics.mm in Sources */,
+				4C0D19A50B8026DD30261E75 /* include_juce_gui_extra.mm in Sources */,
+				49627628CDF13BA047B77667 /* include_juce_opengl.mm in Sources */,
+				BC9A3F9D2D87B70F00D6E676 /* OpenGLRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,18 +322,23 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"/Users/natesparks/JUCE/modules",
+					/Users/natesparks/JUCE/modules,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_FILE = "Info-App.plist";
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/natesparks/JUCE/modules";
-				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Metal,
+					"-weak_framework",
+					MetalKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.PixelVideoSynth1;
-				PRODUCT_NAME = "PixelVideoSynth1";
+				PRODUCT_NAME = PixelVideoSynth1;
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -368,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME = "PixelVideoSynth1";
+				PRODUCT_NAME = PixelVideoSynth1;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -418,17 +435,22 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"/Users/natesparks/JUCE/modules",
+					/Users/natesparks/JUCE/modules,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_FILE = "Info-App.plist";
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/natesparks/JUCE/modules";
-				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Metal,
+					"-weak_framework",
+					MetalKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.PixelVideoSynth1;
-				PRODUCT_NAME = "PixelVideoSynth1";
+				PRODUCT_NAME = PixelVideoSynth1;
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -476,7 +498,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "PixelVideoSynth1";
+				PRODUCT_NAME = PixelVideoSynth1;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -486,20 +508,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		150A081DAC2362AC25091CD3 = {
+		150A081DAC2362AC25091CD3 /* Build configuration list for PBXNativeTarget "PixelVideoSynth1 - App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C7986080B0A207DE5C970B,
-				65C68016DBBC0DFCCC97F17E,
+				D0C7986080B0A207DE5C970B /* Debug */,
+				65C68016DBBC0DFCCC97F17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		31BB4D7B3FD21A7BA30BECEF = {
+		31BB4D7B3FD21A7BA30BECEF /* Build configuration list for PBXProject "PixelVideoSynth1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99DEF1403AB55FC85D1C5F0F,
-				D8DEE7330A8F3D019417AD60,
+				99DEF1403AB55FC85D1C5F0F /* Release */,
+				D8DEE7330A8F3D019417AD60 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
