@@ -7,7 +7,9 @@
     This component lives inside our window, and this is where you should put all
     your controls and content.
 */
-class MainComponent  : public juce::Component
+class PatternEngine;
+
+class MainComponent  : public juce::Component, private juce::OpenGLRenderer
 {
 public:
     //==============================================================================
@@ -21,7 +23,16 @@ public:
 private:
     //==============================================================================
     // Your private member variables go here...
-
+    juce::Slider speedSlider;
+    juce::Slider densitySlider;
+    
+    //juce::OpenGLContext openGLContext;
+    
+    std::unique_ptr<PatternEngine> patternEngine;
+    
+    //void newOpenGLContextCreated() override;
+    //void renderOpenGL() override;
+    //void openGLContextClosing() override;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
