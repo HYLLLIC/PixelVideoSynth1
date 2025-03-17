@@ -22,8 +22,8 @@
 		A7B7E69B72D9C8E11E902C18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536AF9181ED3C8BE95EF4386 /* WebKit.framework */; };
 		AFD61D1E7D5864256E62F3C8 /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */; };
 		B2121DCBF50DED9034E9CB1C /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20081705DFBD5A0B02BE27CD /* RecentFilesMenuTemplate.nib */; };
-		BC9A3F9A2D87B66D00D6E676 /* PatternEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */; };
-		BC9A3F9D2D87B70F00D6E676 /* OpenGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */; };
+		BC9A3FA02D87BD3E00D6E676 /* PatternEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3F9E2D87BD3E00D6E676 /* PatternEngine.cpp */; };
+		BC9A3FA32D87BD6600D6E676 /* OpenGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A3FA12D87BD6600D6E676 /* OpenGLRenderer.cpp */; };
 		EA59219F01E2FB5E55BFCEA2 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81905BB65EBD300AC3B71CFF /* Main.cpp */; };
 		EA93789EB987728E5CC7F647 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 		39EB9D68051C20627C7EDF91 /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
 		46A1C11BD59CEF6A4302FB41 /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/natesparks/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
 		48CA3E444A6846188C96DDB6 /* juce_opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_opengl; path = /Users/natesparks/JUCE/modules/juce_opengl; sourceTree = "<absolute>"; };
-		4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = "<group>"; };
 		536AF9181ED3C8BE95EF4386 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		58C4044ADFA31C851E6EA282 /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
 		5A345C2FF281AF21ACAC33D5 /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
@@ -50,10 +50,10 @@
 		ABFBDC77DD9AC871439A4F81 /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/natesparks/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
 		AC25EC35351A638FAAB1C2C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B0B92FE5EA911686533939B8 /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
-		BC9A3F982D87B64900D6E676 /* PatternEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternEngine.h; sourceTree = "<group>"; };
-		BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PatternEngine.cpp; sourceTree = "<group>"; };
-		BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLRenderer.cpp; sourceTree = "<group>"; };
-		BC9A3F9C2D87B70F00D6E676 /* OpenGLRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLRenderer.hpp; sourceTree = "<group>"; };
+		BC9A3F9E2D87BD3E00D6E676 /* PatternEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PatternEngine.cpp; path = ../../Source/PatternEngine.cpp; sourceTree = "<group>"; };
+		BC9A3F9F2D87BD3E00D6E676 /* PatternEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PatternEngine.hpp; path = ../../Source/PatternEngine.hpp; sourceTree = "<group>"; };
+		BC9A3FA12D87BD6600D6E676 /* OpenGLRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OpenGLRenderer.cpp; path = ../../Source/OpenGLRenderer.cpp; sourceTree = "<group>"; };
+		BC9A3FA22D87BD6600D6E676 /* OpenGLRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = OpenGLRenderer.hpp; path = ../../Source/OpenGLRenderer.hpp; sourceTree = "<group>"; };
 		BD92B67A150B06AD1394A653 /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
 		C34652570CF279A28A92A51F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C94EC0A9AFF49EACE43E6956 /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
@@ -132,10 +132,10 @@
 				81905BB65EBD300AC3B71CFF /* Main.cpp */,
 				FF2B5986853B29D6CE75A2CC /* MainComponent.h */,
 				4A7B95458B0CC88A1D61E885 /* MainComponent.cpp */,
-				BC9A3F982D87B64900D6E676 /* PatternEngine.h */,
-				BC9A3F992D87B66D00D6E676 /* PatternEngine.cpp */,
-				BC9A3F9B2D87B70F00D6E676 /* OpenGLRenderer.cpp */,
-				BC9A3F9C2D87B70F00D6E676 /* OpenGLRenderer.hpp */,
+				BC9A3F9E2D87BD3E00D6E676 /* PatternEngine.cpp */,
+				BC9A3F9F2D87BD3E00D6E676 /* PatternEngine.hpp */,
+				BC9A3FA12D87BD6600D6E676 /* OpenGLRenderer.cpp */,
+				BC9A3FA22D87BD6600D6E676 /* OpenGLRenderer.hpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9A3F9A2D87B66D00D6E676 /* PatternEngine.cpp in Sources */,
+				BC9A3FA02D87BD3E00D6E676 /* PatternEngine.cpp in Sources */,
 				EA59219F01E2FB5E55BFCEA2 /* Main.cpp in Sources */,
 				6C7C0FA32E5444424588AD11 /* MainComponent.cpp in Sources */,
 				44C2533C473D068B769F09AE /* include_juce_core.mm in Sources */,
@@ -272,7 +272,7 @@
 				27E9AC4D6C96AFF271016DBA /* include_juce_gui_basics.mm in Sources */,
 				4C0D19A50B8026DD30261E75 /* include_juce_gui_extra.mm in Sources */,
 				49627628CDF13BA047B77667 /* include_juce_opengl.mm in Sources */,
-				BC9A3F9D2D87B70F00D6E676 /* OpenGLRenderer.cpp in Sources */,
+				BC9A3FA32D87BD6600D6E676 /* OpenGLRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
