@@ -26,13 +26,13 @@ private:
     juce::Slider speedSlider;
     juce::Slider densitySlider;
     
-    //juce::OpenGLContext openGLContext;
+    juce::OpenGLContext openGLContext;
     
     std::unique_ptr<PatternEngine> patternEngine;
     
-    //void newOpenGLContextCreated() override;
-    //void renderOpenGL() override;
-    //void openGLContextClosing() override;
+    void newOpenGLContextCreated() override;
+    void renderOpenGL() override;
+    void openGLContextClosing() override;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

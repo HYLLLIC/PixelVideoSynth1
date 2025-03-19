@@ -5,9 +5,24 @@
 //  Created by Nate Sparks on 3/16/25.
 //
 
-#ifndef PatternEngine_hpp
-#define PatternEngine_hpp
+#pragma once
 
-#include <stdio.h>
+#include <JuceHeader.h>
 
-#endif /* PatternEngine_hpp */
+class PatternEngine
+{
+    public:
+        PatternEngine();
+        ~PatternEngine();
+
+        void setSpeed(double newSpeed);
+        void setDensity(int newDensity);
+
+        void render();
+
+    private:
+        double speed = 1.0;
+        int density = 10;
+
+        // Later: you can add textures, shaders, framebuffers, etc.
+}
